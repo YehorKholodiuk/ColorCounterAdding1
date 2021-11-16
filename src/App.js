@@ -53,13 +53,13 @@ function App() {
         <div className="App">
             <button onClick={minusRows}>Minus row</button>
             {rows}
-            <button onClick={plusRows}>Minus row</button>
+            <button onClick={plusRows}>Plus row</button>
 
             <hr/>
 
             <button onClick={minusColumns}>Minus col</button>
             {columns}
-            <button onClick={plusColumns}>Minus col</button>
+            <button onClick={plusColumns}>Plus col</button>
 
             <hr/>
 
